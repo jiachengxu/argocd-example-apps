@@ -1,0 +1,8 @@
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: akuity
+spec:
+  package: us-docker.pkg.dev/akuity/crossplane/provider:v0.3.0
+  controllerConfigRef:
+    name: akuity
